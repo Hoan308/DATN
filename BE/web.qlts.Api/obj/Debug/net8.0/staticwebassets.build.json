@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IccL6J/7Lndeew4dvvsqhvIsUUJ+zSYHpFL3Rnb1dwA=",
+  "Source": "web.qlts.Api",
+  "BasePath": "_content/web.qlts.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

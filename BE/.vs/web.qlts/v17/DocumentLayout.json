@@ -1,0 +1,230 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DA\\backup\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{459CD0E6-1323-4878-8795-5B32F8D54B1B}|web.qlts.Infrastructure\\web.qlts.Infrastructure.csproj|d:\\da\\backup\\web.qlts.infrastructure\\repository\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{459CD0E6-1323-4878-8795-5B32F8D54B1B}|web.qlts.Infrastructure\\web.qlts.Infrastructure.csproj|solutionrelative:web.qlts.infrastructure\\repository\\receiptrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|d:\\da\\backup\\web.qlts.api\\controllers\\receiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|solutionrelative:web.qlts.api\\controllers\\receiptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|d:\\da\\backup\\web.qlts.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|solutionrelative:web.qlts.api\\controllers\\assetscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|d:\\da\\backup\\web.qlts.core\\mapper\\assetprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|solutionrelative:web.qlts.core\\mapper\\assetprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|d:\\da\\backup\\web.qlts.core\\service\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|solutionrelative:web.qlts.core\\service\\assetservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|d:\\da\\backup\\web.qlts.core\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|solutionrelative:web.qlts.core\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{690C3B34-04FF-462B-B1E4-FFF69C3A956B}|web.qlts.Domain\\web.qlts.Domain.csproj|d:\\da\\backup\\web.qlts.domain\\service\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{690C3B34-04FF-462B-B1E4-FFF69C3A956B}|web.qlts.Domain\\web.qlts.Domain.csproj|solutionrelative:web.qlts.domain\\service\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|d:\\da\\backup\\web.qlts.core\\mapper\\receiptprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|solutionrelative:web.qlts.core\\mapper\\receiptprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|d:\\da\\backup\\web.qlts.core\\mapper\\memberprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|solutionrelative:web.qlts.core\\mapper\\memberprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|d:\\da\\backup\\web.qlts.core\\mapper\\departmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|solutionrelative:web.qlts.core\\mapper\\departmentprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|d:\\da\\backup\\web.qlts.core\\mapper\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{434DC5C4-03AC-45C6-B043-30D05D97F8F8}|web.qlts.Core\\web.qlts.Application.csproj|solutionrelative:web.qlts.core\\mapper\\categoryprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|d:\\da\\backup\\web.qlts.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|solutionrelative:web.qlts.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|d:\\da\\backup\\web.qlts.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FB7E306-B1C5-4CA8-A301-0F8088BD938F}|web.qlts.Api\\web.qlts.Api.csproj|solutionrelative:web.qlts.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1466,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Core\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "web.qlts.Core\\Service\\BaseService.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Core\\Service\\BaseService.cs",
+              "RelativeToolTip": "web.qlts.Core\\Service\\BaseService.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAIwCwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:21:10.016Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReceiptRepository.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Infrastructure\\Repository\\ReceiptRepository.cs",
+              "RelativeDocumentMoniker": "web.qlts.Infrastructure\\Repository\\ReceiptRepository.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Infrastructure\\Repository\\ReceiptRepository.cs",
+              "RelativeToolTip": "web.qlts.Infrastructure\\Repository\\ReceiptRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:43:35.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReceiptController.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Api\\Controllers\\ReceiptController.cs",
+              "RelativeDocumentMoniker": "web.qlts.Api\\Controllers\\ReceiptController.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Api\\Controllers\\ReceiptController.cs",
+              "RelativeToolTip": "web.qlts.Api\\Controllers\\ReceiptController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAmwG4AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:42:43.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssetService.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Core\\Service\\AssetService.cs",
+              "RelativeDocumentMoniker": "web.qlts.Core\\Service\\AssetService.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Core\\Service\\AssetService.cs",
+              "RelativeToolTip": "web.qlts.Core\\Service\\AssetService.cs",
+              "ViewState": "AQIAADsBAAAAAAAAAAAIwGEBAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:17:59.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReceiptProfile.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\ReceiptProfile.cs",
+              "RelativeDocumentMoniker": "web.qlts.Core\\Mapper\\ReceiptProfile.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\ReceiptProfile.cs",
+              "RelativeToolTip": "web.qlts.Core\\Mapper\\ReceiptProfile.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA6wBEAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:13:49.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MemberProfile.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\MemberProfile.cs",
+              "RelativeDocumentMoniker": "web.qlts.Core\\Mapper\\MemberProfile.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\MemberProfile.cs",
+              "RelativeToolTip": "web.qlts.Core\\Mapper\\MemberProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:35:39.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AssetsController.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Api\\Controllers\\AssetsController.cs",
+              "RelativeDocumentMoniker": "web.qlts.Api\\Controllers\\AssetsController.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Api\\Controllers\\AssetsController.cs",
+              "RelativeToolTip": "web.qlts.Api\\Controllers\\AssetsController.cs",
+              "ViewState": "AQIAABEAAADw/////38mwDQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:12:47.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssetProfile.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\AssetProfile.cs",
+              "RelativeDocumentMoniker": "web.qlts.Core\\Mapper\\AssetProfile.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\AssetProfile.cs",
+              "RelativeToolTip": "web.qlts.Core\\Mapper\\AssetProfile.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAiwBIAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:23:15.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssetManager.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Domain\\Service\\AssetManager.cs",
+              "RelativeDocumentMoniker": "web.qlts.Domain\\Service\\AssetManager.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Domain\\Service\\AssetManager.cs",
+              "RelativeToolTip": "web.qlts.Domain\\Service\\AssetManager.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAqwEsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:18:22.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DepartmentProfile.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\DepartmentProfile.cs",
+              "RelativeDocumentMoniker": "web.qlts.Core\\Mapper\\DepartmentProfile.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\DepartmentProfile.cs",
+              "RelativeToolTip": "web.qlts.Core\\Mapper\\DepartmentProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:35:22.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryProfile.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\CategoryProfile.cs",
+              "RelativeDocumentMoniker": "web.qlts.Core\\Mapper\\CategoryProfile.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Core\\Mapper\\CategoryProfile.cs",
+              "RelativeToolTip": "web.qlts.Core\\Mapper\\CategoryProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:35:02.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Api\\Program.cs",
+              "RelativeDocumentMoniker": "web.qlts.Api\\Program.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Api\\Program.cs",
+              "RelativeToolTip": "web.qlts.Api\\Program.cs",
+              "ViewState": "AQIAACoAAACAYGZmZuYcwDQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:26:46.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "D:\\DA\\backup\\web.qlts.Api\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "web.qlts.Api\\Controllers\\BaseController.cs",
+              "ToolTip": "D:\\DA\\backup\\web.qlts.Api\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "web.qlts.Api\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAABEAAACAzMzMzEwfwGEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:27:23.261Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

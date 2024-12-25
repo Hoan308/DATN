@@ -1,0 +1,8 @@
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.Resources.ExportVN.resources
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.Resources.ResourceVN.resources
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.csproj.GenerateResource.cache
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.AssemblyInfoInputs.cache
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.AssemblyInfo.cs
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.csproj.CoreCompileInputs.cache
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo.Domain\obj\Debug\net6.0\web-qlts.Domain.sourcelink.json

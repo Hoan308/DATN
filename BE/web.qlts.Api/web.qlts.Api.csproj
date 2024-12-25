@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.2.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\web.qlts.Core\web.qlts.Application.csproj" />
+    <ProjectReference Include="..\web.qlts.Domain\web.qlts.Domain.csproj" />
+    <ProjectReference Include="..\web.qlts.Infrastructure\web.qlts.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

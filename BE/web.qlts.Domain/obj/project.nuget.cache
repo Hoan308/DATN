@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "E0bxXqF/4DvyKpW3jZrInMsGfCioGBJ/N9YUJxOU6CxoS3lZnweNQTPF++noujuEYF/UXL4MXoZZ4cNAdpIkyg==",
+  "success": true,
+  "projectFilePath": "D:\\DA\\backup\\web.qlts.Domain\\web.qlts.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nh308\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\nh308\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\nh308\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512"
+  ],
+  "logs": []
+}

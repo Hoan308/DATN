@@ -1,0 +1,7 @@
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo\obj\Debug\net8.0\web-qlts.Api.csproj.AssemblyReference.cache
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo\obj\Debug\net8.0\web-qlts.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo\obj\Debug\net8.0\web-qlts.Api.AssemblyInfoInputs.cache
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo\obj\Debug\net8.0\web-qlts.Api.AssemblyInfo.cs
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo\obj\Debug\net8.0\web-qlts.Api.csproj.CoreCompileInputs.cache
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo\obj\Debug\net8.0\web-qlts.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\M.Fresher\BackEnd\MISA.WebFresher042023.Demo\obj\Debug\net8.0\web-qlts.Api.sourcelink.json

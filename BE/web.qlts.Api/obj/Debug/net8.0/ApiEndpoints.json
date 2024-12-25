@@ -1,0 +1,867 @@
+[
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Account.AccountDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/Account",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Account.AccountDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/v1/Account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityInsertDto",
+        "Type": "web.qlts.Application.Dto.Account.AccountInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Account.AccountDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Account",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityUpdateDto",
+        "Type": "web.qlts.Application.Dto.Account.AccountUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Account.AccountDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/v1/Account/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Account.AccountDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/v1/Account/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Account.AccountDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Account.AccountTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/v1/Account/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "web.qlts.Domain.Entity.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/v1/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "account",
+        "Type": "web.qlts.Domain.Entity.Account",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.AssetDto.AssetDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/Assets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.AssetDto.AssetDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/v1/Assets",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityInsertDto",
+        "Type": "web.qlts.Application.Dto.AssetDto.AssetInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.AssetDto.AssetDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Assets",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityUpdateDto",
+        "Type": "web.qlts.Application.Dto.AssetDto.AssetUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.AssetDto.AssetDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/v1/Assets/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.AssetDto.AssetDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/v1/Assets/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AssetsController",
+    "Method": "CheckExistReceipt",
+    "RelativePath": "api/v1/Assets/CheckExistReceipt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.AssetDto.AssetDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.AssetDto.AssetTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/v1/Assets/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AssetsController",
+    "Method": "GetListExport",
+    "RelativePath": "api/v1/Assets/Export",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AssetsController",
+    "Method": "GetNewCodeAsync",
+    "RelativePath": "api/v1/Assets/NewCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AssetsController",
+    "Method": "GetPaggingAssetChose",
+    "RelativePath": "api/v1/Assets/PaggingAssetChose",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "web.qlts.Api.Controllers.AssetsController\u002BDataBodyPost",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AssetsController",
+    "Method": "GetPagging",
+    "RelativePath": "api/v1/Assets/PaggingList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchInput",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "m_DepartmentName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "m_CategoryName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.AssetsController",
+    "Method": "GetAssetByReceiptId",
+    "RelativePath": "api/v1/Assets/Receipt/{receiptId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receiptId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.CategoryDto.CategoryDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.CategoryDto.CategoryDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/v1/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityInsertDto",
+        "Type": "web.qlts.Application.Dto.CategoryDto.CategoryInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.CategoryDto.CategoryDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Category",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityUpdateDto",
+        "Type": "web.qlts.Application.Dto.CategoryDto.CategoryUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.CategoryDto.CategoryDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/v1/Category/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.CategoryDto.CategoryDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/v1/Category/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.CategoryDto.CategoryDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.CategoryDto.CategoryTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/v1/Category/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.DepartmentDto.DepartmentDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/Departments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.DepartmentDto.DepartmentDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/v1/Departments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityInsertDto",
+        "Type": "web.qlts.Application.Dto.DepartmentDto.DepartmentInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.DepartmentDto.DepartmentDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Departments",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityUpdateDto",
+        "Type": "web.qlts.Application.Dto.DepartmentDto.DepartmentUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.DepartmentDto.DepartmentDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/v1/Departments/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.DepartmentDto.DepartmentDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/v1/Departments/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.DepartmentDto.DepartmentDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.DepartmentDto.DepartmentTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/v1/Departments/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Member.MemberDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/Member",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Member.MemberDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/v1/Member",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityInsertDto",
+        "Type": "web.qlts.Application.Dto.Member.MemberInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Member.MemberDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Member",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityUpdateDto",
+        "Type": "web.qlts.Application.Dto.Member.MemberUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Member.MemberDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/v1/Member/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Member.MemberDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/v1/Member/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.Member.MemberDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.Member.MemberTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/v1/Member/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.MemberController",
+    "Method": "GetPrevMember",
+    "RelativePath": "api/v1/Member/GetPrevMember",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.MemberController",
+    "Method": "GetMemberByReceiptId",
+    "RelativePath": "api/v1/Member/ReceiptId/{receiptId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receiptId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.ReceiptDto.ReceiptDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAllAsync",
+    "RelativePath": "api/v1/Receipt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.ReceiptDto.ReceiptDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "AddAsync",
+    "RelativePath": "api/v1/Receipt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityInsertDto",
+        "Type": "web.qlts.Application.Dto.ReceiptDto.ReceiptInsertDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.ReceiptDto.ReceiptDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/v1/Receipt",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entityUpdateDto",
+        "Type": "web.qlts.Application.Dto.ReceiptDto.ReceiptUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.ReceiptDto.ReceiptDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/v1/Receipt/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.ReceiptDto.ReceiptDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteByIdAsync",
+    "RelativePath": "api/v1/Receipt/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "CheckDeleteListReceipt",
+    "RelativePath": "api/v1/Receipt/CheckDeleteListReceipt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "CheckExistReceipt",
+    "RelativePath": "api/v1/Receipt/CheckExistReceipt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "assetId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "receiptId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "CheckReference",
+    "RelativePath": "api/v1/Receipt/CheckReference",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.BaseController\u00604[[web.qlts.Application.Dto.ReceiptDto.ReceiptDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptInsertDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptUpdateDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[web.qlts.Application.Dto.ReceiptDto.ReceiptTranferDto, web.qlts.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "DeleteMultiple",
+    "RelativePath": "api/v1/Receipt/DeleteMultiple",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "InsertReceiptAndAsset",
+    "RelativePath": "api/v1/Receipt/InsertReceipt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receiptData",
+        "Type": "web.qlts.Api.Controllers.ReceiptController\u002BReceiptDataInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "GetNewCode",
+    "RelativePath": "api/v1/Receipt/NewCode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "GetPagging",
+    "RelativePath": "api/v1/Receipt/PaggingList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "searchInput",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "GetAssetByReceiptIdPagging",
+    "RelativePath": "api/v1/Receipt/PaggingListAsset",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "DeleteOnlyReceipt",
+    "RelativePath": "api/v1/Receipt/ReceiptId/{receiptId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receiptId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "web.qlts.Api.Controllers.ReceiptController",
+    "Method": "UpdateReceiptAndAsset",
+    "RelativePath": "api/v1/Receipt/UpdateReceipt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "receiptData",
+        "Type": "web.qlts.Api.Controllers.ReceiptController\u002BReceiptUpdateData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

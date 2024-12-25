@@ -1,0 +1,29 @@
+.table--tranfer>.table__content--body,
+.table--tranfer>.table__content--header,
+.table--tranfer>.table__content--summary {
+     width: 1492px;
+}
+
+
+.table--tranfer>.table--master {
+     width: 1304px;
+}
+
+.table--tranfer-expand>.table--master {
+     width: 1434px;
+}
+
+
+
+.table--modal {
+     width: 1492px;
+}
+
+
+.table--tranfer>.table--fw {
+     width: 100%;
+}
+
+.table--click {
+     background-color: var(--blue-hover-color);
+}
